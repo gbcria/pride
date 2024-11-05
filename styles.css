@@ -368,3 +368,27 @@ footer {
     transform: scale(1.05);
     transition: transform 0.3s;
 }
+
+.curso-em-breve {
+    text-align: center;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #f3f0ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.em-breve-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.error-img {
+    width: 100%;
+    max-width: 250px; 
+    height: auto;
+    margin: 20px 0;
+}
