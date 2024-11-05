@@ -326,3 +326,45 @@ footer {
     background-color: #6a0dad;
     color: white;
 }
+
+.banner {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.banner-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sobre {
+    text-align: center;
+    padding: 2rem;
+    background-color: #eae2f8;
+    border-radius: 8px;
+    margin: 2rem auto;
+}
+
+.sobre h2 {
+    color: #6a0dad;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.grid-img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
