@@ -188,3 +188,54 @@ button.cta:hover {
     color: #9f5fe5;
 }
 
+.contato {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f3f0ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contato h1 {
+    text-align: center;
+    color: #6a0dad;
+}
+
+.contato p {
+    text-align: center;
+    color: #333;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato label {
+    margin-top: 10px;
+    color: #6a0dad;
+}
+
+.contato input,
+.contato textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contato button.cta {
+    margin-top: 20px;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.contato button.cta:hover {
+    background-color: #9f5fe5;
+}
