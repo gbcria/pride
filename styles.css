@@ -6,8 +6,8 @@ body {
 }
 
 .logo {
-    width: 60px; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 60px; 
+    height: auto; 
 }
 
 .navbar {
